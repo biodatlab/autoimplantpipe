@@ -19,7 +19,7 @@ from monai.networks.nets import UNet
 from monai.networks.layers import Norm
 from monai.inferers import sliding_window_inference
 from monai.data import DataLoader, Dataset, decollate_batch
-from autoimplant_pipeline.utils import save_nii_file
+from autoimplantpipe.utils import save_nii_file
 
 
 def load_segmentation_model(model_path: str, device=torch.device("cpu")):
