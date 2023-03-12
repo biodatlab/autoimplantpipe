@@ -14,7 +14,7 @@ Notebooks folder contains notebook for automatic skull segmentation and autoimpl
 - `02_autoimplant_prediction.ipynb` is an example for performing autoimplant inference
 
 We provide the pretrained model for both segmentation and autoimplant
-[here](#Results-and-Models) and the SkullBreak data example for autoimplant inference [here](./skullbreak_parietotemporal_001.nii).
+[here](#Results-and-Models) and the SkullBreak data example for autoimplant inference [here](./skullbreak_parietotemporal_001.nii.gz).
 
 ## Training scripts
 
