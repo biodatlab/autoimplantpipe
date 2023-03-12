@@ -1,5 +1,6 @@
 """
-Reference: add here
+This code is adapted from the original 3DUnetCNN.
+Reference: https://github.com/ellisdg/3DUnetCNN
 """
 import torch
 import torch.nn as nn
@@ -81,7 +82,7 @@ class UNetEncoder(nn.Module):
         in_width = n_features
 
         for i, n_blocks in enumerate(layer_blocks):
-            out_width = base_width * (feature_dilation ** i)
+            out_width = base_width * (feature_dilation**i)
             self.layers.append(UNetLayer(n_blocks, in_width, out_width, dropout))
             if i != len(layer_blocks) - 1:
                 self.layers.append(conv3x3x3(out_width, out_width, stride))
