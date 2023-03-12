@@ -3,3 +3,5 @@ from autoimplantpipe.segmentation.inference import (
     remove_small_islands,
     predict_skull_segmentation,
 )
+
+from autoimplantpipe.segmentation.models import UNetSegmentation

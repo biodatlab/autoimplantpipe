@@ -9,6 +9,7 @@ from autoimplantpipe.autoimplant import (
 from autoimplantpipe.segmentation import (
     load_segmentation_model,
     predict_skull_segmentation,
+    UNetSegmentation,
 )
 from autoimplantpipe.utils import (
     show_slices,
