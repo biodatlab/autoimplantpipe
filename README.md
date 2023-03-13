@@ -7,28 +7,28 @@
 This is a repository for the paper _"An End-to-End Pipeline for Automatic Patient-Specific Cranial Implant Design:
 From CT Scans to Titanium Implants"_. The repository contains the following implementations:
 
-1. **Automatic skull segmentation** predict 3D skulls from a given CT Scans in grayscale
-2. **Autoimplant** predicting complete skull from a defective skull
+1. **Automatic skull segmentation** predicts 3D skulls from a given CT Scans in grayscale
+2. **Autoimplant** predicts complete skull from a defective skull
 
-## Notebooks and training scripts
+## Autoimplantpipe, notebooks, and training scripts
 
+- **Autoimplantpipe** contains a library for autoimplant pipeline described in the paper.
 - **Notebooks** folder contains notebook for automatic skull segmentation and autoimplant inferences including
-  - `01_autosegmentation.ipynb` is an example notebook for performing segmentation from a given Nifti file
-  - `02_autoimplant_prediction.ipynb` is an example for performing autoimplant inference
+  - `01_autosegmentation.ipynb` is an example notebook for performing skull segmentation
+  - `02_autoimplant_prediction.ipynb` is an example notebook for performing autoimplant inference
+- **Scripts** folder contains scripts for training automatic skull segmentation and autoimplant models.
 
 We provide the pretrained models for segmentation and autoimplant
-[here](#Results-and-Models). Additionally, we provide an example SkullBreak data for autoimplant inference
-[here](./data/skullbreak_parietotemporal_001.nii.gz).
-
-- **Scripts** folder contains scripts for training automatic skull segmentation and autoimplant models.
+[below](#Results-and-Models). Additionally, we provide an example SkullBreak data for autoimplant inference
+[data folder](./data/skullbreak_parietotemporal_001.nii.gz).
 
 ## Results and Models
 
 Dice score and model checkpoints for segmentation and autoimplant models.
 
-| Segmentation model                 | Dice Score | Checkpoint                                                                                    |
-| ---------------------------------- | :--------: | --------------------------------------------------------------------------------------------- |
-| Unet + Post Process (Segmentation) |   0.9100   | [link](https://drive.google.com/file/d/1__LxfFFNa7lquG8mT2unGBgNqRvVVFlj/view?usp=share_link) |
+| Segmentation model  | Dice Score | Checkpoint                                                                                    |
+| ------------------- | :--------: | --------------------------------------------------------------------------------------------- |
+| Unet + Post Process |   0.9100   | [link](https://drive.google.com/file/d/1__LxfFFNa7lquG8mT2unGBgNqRvVVFlj/view?usp=share_link) |
 
 | Autoimplant model               | Dice Score | Checkpoint                                                                                    |
 | ------------------------------- | :--------: | --------------------------------------------------------------------------------------------- |
