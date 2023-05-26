@@ -32,11 +32,11 @@ Dice score and model checkpoints for segmentation and autoimplant models.
 
 | Autoimplant model               | Dice Score | Checkpoint                                                                                    |
 | ------------------------------- | :--------: | --------------------------------------------------------------------------------------------- |
-| PCA                             |   0.7773   | -                                                                                             |
-| 3DUNetCNN off-the-shelf         |   0.9205   | -                                                                                             |
+| PCA                             |   0.7773   | [notebook](./notebooks/00_pca_registration.ipynb)                                             |
+| 3DUNetCNN off-the-shelf         |   0.9205   | [link](https://zenodo.org/record/4289225)                                                     |
 | 3DUNetCNN SkullBreak            |   0.9464   | [link](https://drive.google.com/file/d/1Zvj3xa1E2pHV-Ykvqa70S5IOhiMWVL39/view?usp=share_link) |
-| 3DUNetCNN in-house              |   0.9711   | -                                                                                             |
-| 3DUNetCNN SkullBreak + in-house |   0.9715   | -                                                                                             |
+| 3DUNetCNN in-house              |   0.9711   | [link](https://drive.google.com/file/d/1JjpowfEFn7cqoKe1oKg699XoWad2PDZl/view?usp=share_link) |
+| 3DUNetCNN SkullBreak + in-house |   0.9715   | [link](https://drive.google.com/file/d/1XrgC84nhVJVHKtgC5jGLhXckup2A5BMK/view?usp=sharing)    |
 
 **Note:** please contact the main author if you want an access to in-house checkpoints.
 
