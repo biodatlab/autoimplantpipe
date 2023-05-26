@@ -27,7 +27,7 @@ def _evaluate(y_true: np.array, y_pred: np.array):
     Dice and Jaccard Coefficient, Volume Similarity, and classification errors.
     """
     quality = dict()
-    labelPred = sitk.GetImageFromArray(y_pred, isVector=False) > 0.5
+    labelPred = sitk.GetImageFromArray(y_pred, isVector=False) > 1.5
     labelTrue = sitk.GetImageFromArray(y_true, isVector=False) > 0.5
 
     # Hausdorff Distance
@@ -63,7 +63,7 @@ def evaluate_skulls(pred_file: str, target_file: str, verbose: bool = False):
     pred = _load_skull(pred_file)
     target = _load_skull(target_file)
 
-    labelPred = sitk.GetImageFromArray(pred.get_fdata(), isVector=False) > 0.5
+    labelPred = sitk.GetImageFromArray(pred.get_fdata(), isVector=False) > 1.5
     labelTrue = sitk.GetImageFromArray(target.get_fdata(), isVector=False) > 0.5
 
     result = dict()
