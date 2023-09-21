@@ -38,7 +38,7 @@ Dice score and model checkpoints for segmentation and autoimplant models.
 | 3DUNetCNN in-house              |   0.7881   | [link](https://drive.google.com/file/d/1JjpowfEFn7cqoKe1oKg699XoWad2PDZl/view?usp=share_link) |
 | 3DUNetCNN SkullBreak + in-house |   0.7936   | [link](https://drive.google.com/file/d/1XrgC84nhVJVHKtgC5jGLhXckup2A5BMK/view?usp=sharing)    |
 
-**Note:** please contact the main author if you want an access to in-house checkpoints.
+**Note:** Model checkpoints trained with in-house dataset is distributed under CC BY-NC license. The source code is distributed under Apache 2.0.
 
 ## Installation
 
