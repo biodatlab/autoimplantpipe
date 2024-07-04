@@ -4,8 +4,12 @@
   <img width="600px" title="End-to-end autoimplant pipeline" alt="End-to-end autoimplantpipe" src="images/pipeline.png">
 </p>
 
-This is a repository for the paper _"An End-to-End Pipeline for Automatic Patient-Specific Cranial Implant Design:
-From CT Scans to Titanium Implants"_. The repository contains the following implementations:
+This is a repository for the project _"An End-to-End Pipeline for Automatic Patient-Specific Cranial Implant Design:
+From CT Scans to Titanium Implants"_. We aim to make the repository as an easy starter for performing Autoimplant.
+Please see our paper [_"CraNeXt: Automatic Reconstruction of Skull Implants With Skull Categorization Technique"_](https://ieeexplore.ieee.org/document/10559595) and model at [guitared/Cranext](https://github.com/guitared/Cranext) if
+you want to see recent development from the lab.
+
+The repository contains the following implementations:
 
 1. **Automatic skull segmentation** predicts 3D skulls from a given CT Scans in grayscale
 2. **Autoimplant** predicts complete skull from a defective skull
